@@ -1,5 +1,5 @@
 {
-  "name": "react-native-svg-pan-zoom",
+  "name": "react-native-svg-pan-zoom-native-evt-patch",
   "version": "0.1.2",
   "description": "Pan-zoom for react-native-svg via 'Google Maps'-style pinch and drag gestures",
   "main": "index.js",
@@ -39,5 +39,6 @@
     "react-native-svg": "^6.0.0",
     "typescript": "^2.6.2"
   },
-  "dependencies": {}
+  "types": "./index.d.ts",
+  "author": ""
 }
