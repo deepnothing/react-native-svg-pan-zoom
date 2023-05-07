@@ -11,7 +11,7 @@ export default class ResponderElement extends Component {
             this.releasedNaturally = true;
             this.props.onClick(evt);
         }} onResponderTerminationRequest={(evt) => {
-            if (evt.nativeEvent.touches.length > 1) {
+            if (evt?.nativeEvent?.touches?.length > 1) {
                 this.releasedNaturally = false;
                 return true;
             }
